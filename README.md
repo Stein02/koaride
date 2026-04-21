@@ -1,4 +1,3 @@
-# Your CallARide 
 payment
 was
 successful,
