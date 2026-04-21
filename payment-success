@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Complete</title>
+</head>
+<body>
+    <h2>Payment Successful 🎉</h2>
+    <p id="ref"></p>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const ref = params.get('reference');
+
+        if (ref) {
+            document.getElementById('ref').innerText = "Reference: " + ref;
+        }
+    </script>
+</body>
+</html>
